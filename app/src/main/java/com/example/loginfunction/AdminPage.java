@@ -53,7 +53,7 @@ public class AdminPage extends AppCompatActivity implements LoaderManager.Loader
 
         username = getIntent().getStringExtra("username");
 
-        txtUserName.setText("Welcome " + getIntent().getStringExtra("username") + " back!!");
+        txtUserName.setText("Welcome " + getIntent().getStringExtra("username"));
 
         dbHelper = new OrderHelper(this);
 

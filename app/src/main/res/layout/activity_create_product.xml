@@ -37,56 +37,47 @@
 
     <EditText
         android:id="@+id/edtName"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:textAlignment="center"
         android:inputType="textPersonName"
         android:hint="Name"
         />
 
     <EditText
         android:id="@+id/edtDes"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:textAlignment="center"
         android:inputType="textPersonName"
         android:hint="Description" />
 
     <EditText
         android:id="@+id/edtPrice"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:textAlignment="center"
         android:inputType="number"
         android:hint="Price" />
 
     <Button
         android:id="@+id/btnChoose"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
-        android:layout_gravity="center"
-        android:text="Choose Image" />
+        android:text="CHOOSE IMAGE" />
 
 
     <Button
         android:id="@+id/btnAdd"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
-        android:layout_gravity="center"
-        android:text="Add" />
+        android:text="ADD" />
 
 
     <Button
         android:id="@+id/btnFoodlist"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
-        android:layout_gravity="center"
-        android:text="Back" />
+        android:text="LIST" />
 
 </LinearLayout>

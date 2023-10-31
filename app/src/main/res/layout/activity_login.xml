@@ -41,34 +41,33 @@
         android:inputType="textPassword"/>
 
     <Button
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/signin1"
         android:textSize="20dp"
         android:layout_marginBottom="10dp"
+        android:textStyle="bold"
         android:textColor="@color/white"
         android:text="Sign in"
         android:backgroundTint="@color/black"/>
 
     <Button
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/createaccount"
         android:textSize="20dp"
-        android:text="Create Account"
+        android:text="Create account"
         android:layout_marginBottom="10dp"
         android:textColor="@color/black"
         android:backgroundTint="@color/green"/>
 
     <Button
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/btnForgotPassword"
         android:textSize="20dp"
-        android:text="Forgotten Password? "
+        android:text="Forgotten password?"
+        android:layout_marginBottom="30dp"
         android:textColor="@color/black"
         android:backgroundTint="@color/green"/>
 </LinearLayout>

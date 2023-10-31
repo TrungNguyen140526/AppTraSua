@@ -39,9 +39,8 @@
 
     <EditText
         android:id="@+id/textName"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center"
         android:textAlignment="center"
         android:layout_below="@+id/firstCardView"
         android:hint="Name"
@@ -49,9 +48,8 @@
 
     <EditText
         android:id="@+id/textDes"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center"
         android:textAlignment="center"
         android:layout_below="@+id/textName"
         android:hint="Description"
@@ -59,9 +57,8 @@
 
     <EditText
         android:id="@+id/textPrice"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center"
         android:textAlignment="center"
         android:layout_below="@+id/textDes"
         android:hint="Price"
@@ -69,17 +66,15 @@
 
     <Button
         android:id="@+id/btnChoose"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
         android:layout_marginTop="0dp"
         android:text="Choose new image" />
     <Button
         android:id="@+id/btnUpda"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
         android:layout_marginTop="0dp"
         android:text="Update" />

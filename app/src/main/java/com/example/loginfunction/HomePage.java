@@ -57,7 +57,7 @@ public class HomePage extends AppCompatActivity {
         dbHelper = new OrderHelper(this);
 
 
-        txtUsername.setText("Welcome " + getIntent().getStringExtra("username") + " \n");
+        txtUsername.setText("Welcome " + getIntent().getStringExtra("username"));
 
         String username = getIntent().getStringExtra("username");
 
